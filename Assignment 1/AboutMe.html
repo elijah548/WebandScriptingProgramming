@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>About Me</title>
+<!-- The following line links to my style sheet file-->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--All content is enclosed in the wrapper ID style-->
+<div id="wrapper">
+<!--The banner ID style is inside the wrapper ID style-->
+<div id="banner">
+<h1>About Me</h1>
+</div>
+
+<img src="C:\Users\Elijah\Downloads\960x0.webp" width="140" ><img src="C:\Users\Elijah\Downloads\NBA-2K23-Devin-Booker-Cover-Image.jpg" width="140" > 
+<!--left-column ID style is floated left and used for navigation-->
+<div id="left-column">
+    <footer>
+        <h4>Navigation Bar</h4>
+        <nav>
+        <h4>
+        <a href="Webdev.html">Home</a> |
+        <a href="AboutMe.html">About Me</a> |
+        <a href="Project.html">Project</a> |
+        <a href="ContactMe.html">Contact Me</a>
+        </h4>
+        </nav>
+        </footer>
+     
+        <img src="C:\Users\Elijah\Downloads\Screenshot_20230930-163207~2.png" width="330" >
+</div>
+<!--right-column ID style is floated right and used for content-->
+
+<div id="right-column">
+    <article> <h3>My name is Elijah Devadas. I was born on August 12, 2003, in Toronto, Ontario. 
+        I am a second-year student at Ontario Tech University, enrolled in the Networking and IT Security program. My goal, once I graduate from this program, is to secure a job in the cybersecurity field. 
+        My hobbies include playing all types of sports and video games. My two favorite video games are FIFA 23 and NBA 2K23. 
+        If I were to describe myself, I would say I am a hardworking individual striving to be the best version of myself each and every single day.</h3>
+        <body>
+            
+            <video controls poster="C:\Users\Elijah\Pictures\Screenshot (247).png">
+                <source src="C:\Users\Elijah\Documents\FunFacts.mp4" type="video/mp4">
+                <source src="C:\Users\Elijah\Downloads\FunFacts.ogv" type="video/ogg">
+                </video>
+                
+                
+            
+        </body>
+        
+    </div>
+    
+
+    <!--The clear class style (removes) float-->
+    <div class="clear"></div>
+    <div id="footer">
+    <h5>elijah.devadas@ontariotechu.net</h5>
+    <h5>© 2023 by Elijah Devadas</h5>
+    </div>
+    </div>
+    </body>
+    </html>
+
+    
+    
+    <style>
+        @charset "UTF-8";
+/* CSS code */
+/* The body tag style applies to all elements on the page */
+body {
+background-color: #071F80;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+width: 960px;height: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color:#2E3E80 ;
+}
+/* The right-column ID style is floated right */
+#right-column {
+float: right;
+width: 600px;height: 600px;
+background-color:#0C32CC;
+}
+/* The left-column ID style is floated left */
+#left-column {
+float: left;
+width: 360px;background-color:#0F3EFF;
+height:600px;
+}
+/* Defining a style for a set of tags separated by commas applies the style to
+all tags */
+h1,h2,h3,h4,h5,h6,p,li {
+margin-left:15px;
+}
+#footer {
+height:80px;
+}
+
+
+
+#banner{
+height:120px;
+background-color:#5B7CFF ;
+}
+
+video {
+width: 400px;
+padding: 15px;
+margin: 15px;
+background-color:black;
+border:2px white solid;
+box-shadow: 10px 10px 5px black;
+
+}
+
+
+    </style>
